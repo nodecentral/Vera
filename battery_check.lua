@@ -27,4 +27,4 @@ end
 -- local message_out = warning..room.." is now at "..level_to_report.."%"
 
 
-luup.inet.wget("http://www.prowlapp.com/publicapi/add?apikey=PROWLAPIKEY&application=Vera+Temperature+Notification&event=Alert&description=Conservatory+thermostat+battery+level+is+at+" .. level_to_report .. "+percent+replace+soon&priority=1")
+luup.inet.wget("http://www.prowlapp.com/publicapi/add?apikey=ADDYOURPROWLAPIKEYHERE&application=Vera+Temperature+Notification&event=Alert&description=Conservatory+thermostat+battery+level+is+at+" .. level_to_report .. "+percent+replace+soon&priority=1")
